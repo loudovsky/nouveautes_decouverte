@@ -1,0 +1,15 @@
+.wrapper-demo{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.title{
+    color: palevioletred;
+    text-align: center;
+}
+.view{
+    opacity: 0;
+}
+.view.hidden{
+    opacity: 1;
+    @include transition
+}

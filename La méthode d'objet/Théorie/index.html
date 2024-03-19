@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- font-family link -->
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+
+
+  <!-- css link -->
+  <link rel="stylesheet" href="Styles/style.min.css">
+
+  <title> ... </title>
+</head>
+<body>
+  <h1>La méthode d'objet en JavaScript</h1>
+
+   <!-- 🧠 🧠 🧠 🧠 théorie 🧠 🧠 🧠 🧠 -->
+
+  <h2>La théorie</h2>
+  <div class="theory">
+    <h3>Imagine 🧠</h3>
+    <p>Imagine que tu as une boîte à jouets spéciale appelée "voiture". Cette boîte a différentes choses à l'intérieur, comme <span>le nom de la marque de la voiture, le modèle, et l'année où elle a été fabriquée</span>. En plus de cela, la boîte a aussi <span>des boutons spéciaux</span> pour faire démarrer la voiture et l'arrêter.</p>
+
+    <h3>JavaScript ⌨️</h3>
+    <p>Maintenant, dans le monde de JavaScript, nous pouvons créer cette boîte à jouets comme ceci :</p>
+
+    <div class="code">
+      let voiture = {<br>
+        marque: 'Toyota',<br>
+        modèle: 'Corolla',<br>
+        année: 2020,<br>
+        démarrer: function() {<br>
+          console.log('La voiture démarre.');<br>
+        },<br>
+        arrêter: function() {<br>
+          console.log('La voiture s'arrête.');<br>
+        }<br>
+      };
+    </div>
+
+    <p>
+      Regarde bien cette partie : <span>démarrer: function() { ... }</span>. C'est comme si nous disions à la boîte à jouets qu'elle a <span>un bouton appelé "démarrer"</span>, et lorsque nous appuyons sur ce bouton, cela exécute <span>une action</span>, comme faire démarrer la voiture. La même chose pour "arrêter".
+      
+      Ensuite, lorsque nous voulons faire démarrer ou arrêter la voiture, nous utilisons simplement la boîte à jouets et appuyons sur les boutons comme ceci :
+    </p>
+
+      <div class="code">
+        voiture.démarrer(); =>Ça démarre la voiture.<br>
+        voiture.arrêter(); => Ça arrête la voiture.<br>
+      </div>
+
+      <p>Et voilà ! C'est ainsi que la méthode d'objet en JavaScript fonctionne. C'est comme avoir une boîte à jouets spéciale avec des boutons pour contrôler une voiture, mais au lieu de vrais boutons, ce sont des <span>fonctions spéciales qui font des choses quand on les appelle</span>.</p>
+
+      <div class="resum">
+        <h1> 🔥 En gros :</h1>
+        <h3 >Une fonction qui est la propriété d’un objet s’appelle sa méthode</h3>
+      </div>
+
+  </div>
+
+  <!-- 🧠 🧠 🧠 🧠 exemples 🧠 🧠 🧠 🧠 -->
+
+   <h2>En pratique</h2>
+  <section class="wrapper">
+    <section class="exoBox">
+      <h4>🟦  🟦 Mise en pratique 1 🟦 🟦  </h4>
+      <div class="box">Fais-moi changer de couleur ! :-)</div>
+      <button class="buttonBox">Changer la couleur</button>
+    </section>
+    <section class="exoCar">
+        <h4>🚗 🚗 Mise en pratique 2 🚗 🚗</h4>
+        <div class="carModele">
+          <button type="submit" class="car1">Discover car</button>
+          <button type="submit" class="car2">Discover car</button>
+          <button type="submit" class="car3">Discover car</button>
+          <button type="submit" class="car4">Discover car</button>
+        </div>
+        <div class="result"></div>
+      </section>
+  </section>
+  <!-- js link -->
+  <script src="Script/main.js"></script>
+</body>
+</html>

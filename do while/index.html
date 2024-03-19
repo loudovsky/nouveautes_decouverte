@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="img/book1.ico">
+  <link rel="stylesheet" href="styles/style.min.css">
+  <title>les boucle do . . . while et la boucle while | le switch</title>
+</head>
+<body>
+  <p class="red">*Attention, si vous avez l'auto-save d'activé, cela peut provoquer une boucle infinie qui fait bugger votre navigateur</p>
+  <section>
+      <!-- La boucle while -->
+      <div class="container-section while">
+          <h1>🧠La boucle while🧠</h1>
+          <p>
+              <strong>La boucle while exécute une instruction tant qu'une expression est vrai (<span class="green">true</span>).</strong>
+          </p>
+          <p>
+              Souhaitez-vous lancer la pièce (oui/non) ?
+          </p>
+          <div class="pieces">
+              <button class="oui">🥧Oui🥧</button>
+              <button class="non">❌Non❌</button>
+              <div class="result">
+                  <!-- <p>
+                      Résultat : Pile
+                  </p>
+                  <p>
+                      Nombre de lancers : 10
+                  </p> -->
+              </div>
+          </div>
+      </div>
+      <!-- La boucle do...while -->
+      <div class="container-section dowhile">
+          <h1>💻La boucle do...while💻</h1>
+          <p><strong>Boucle qui ressemble au while ou à la boucle for , à l'exception près qu'elle exécute une instruction au moins une fois.</strong></p>
+          <p>Devinez un nombre entre <strong>1</strong> et <strong>100</strong> !</p>
+          <input type="text" class="nombre" placeholder="Entre un numero 1,2,3 ...">
+          <button class="verifier">✔️Deviner✔️</button>
+          <button class="relancer">🔄relancer🔄</button>
+          <div class="txt">
+              <!-- <p>Félicitations ! Vous avez trouvé le nombre en 10 essais.</p> -->
+          </div>
+      </div>
+      <!-- L'instruction Switch -->
+      <div class="container-section switch">
+          <h1>🤖L'instruction Switch🤖</h1>
+          <P>
+              <strong>
+                  Un Switch permet de créer une série de conditions vérifiant une expression.
+                  C'est une alternative aux [if...else if() ... else if() etc...].
+              </strong>
+          </P>
+          <p>
+              La Taille disponible XL, L, M et S
+          </p>
+          <input id="size" type="text" placeholder="Votre taille❓">
+          <button id="valide">✔️Valider✔️</button>
+          <div class="T-shirt">
+                  <!-- <p>
+                      le prix pour ce t-shirt est de <strong>19,99€</strong>
+                  </p>
+                  <div class="container-img">
+                      <img src="./img/2148091-Blanc-frontthumb1646691518-600x600.jpg.webp" alt="">
+                  </div> -->
+          </div>
+      </div>
+  </section>
+
+  <script src="scripts/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+Etape
+
+•    Créez un tableau dans lequel se trouve 4 chiffres. 
+•    Créez ensuite une callback function dans laquel vous multipliez chacun des chiffres du tableau par 3. 
+•    Renvoyez le résultat sous forme de log.
+•    Il est important que cela soit fait sous forme d'une callback function.
+•    Une fois que vous obtenez le résultat dans votre log. Passez à l'étape 2.
+
+Etape 2
+
+•    Créez un bouton.
+•    Quand on clique sur le bouton, le résultat de la multiplication des chiffres du tableau apparait sous forme de titre dans le dom après un délai de 3 secondes.
+•    Pour ce faire vous utiliserez votre fonction qui fait apparaître le titre après 3 secondes comme argument d'une callback function qui réagit au click.
